@@ -6,7 +6,7 @@ public class Main {
         MountainBike emountainBike = new MountainBike("Schwarzes E-Mountainbike",
                 new Frame("Alu", "Schwarz"), new Brake("Scheibenbremse"), new GearShift("Kettenschaltung"),new Tire(""));
 
-        CityBike ecityBike = new CityBike("Weißes E-Stadtfahrrad",
+        CityBike ecityBike = new CityBike("Weißes E-Stadtfahrrad ",
                 new Frame("Alu", "Weiß"), new Brake("Trommelbremse"), new GearShift("Nabenschaltung"),new Tire(""));
 
         // Elektrofahrräder erstellen
