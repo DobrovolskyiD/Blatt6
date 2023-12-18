@@ -1,12 +1,12 @@
-public class Brake {
+public class Tire {
     private String type;
 
-    public Brake(String type) {
+    public Tire(String type) {
         this.type = type;
     }
 
     @Override
     public String toString() {
-        return type + " Bremse";
+        return "Tire: " + type;
     }
 }
